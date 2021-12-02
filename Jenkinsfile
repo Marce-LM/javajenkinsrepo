@@ -1,7 +1,7 @@
 pipeline {
     agent{
         docker{
-            image '3.8.4-jdk-8'
+            image 'maven:3.8-adoptopenjdk-8'
         }
     }
     stages{
