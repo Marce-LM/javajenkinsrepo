@@ -2,7 +2,7 @@ pipeline {
     agent{
         docker{
             image 'maven:3.8.4-adoptopenjdk-8'
-            args '-v $HOME/.m2:/root/.m2'
+            args '-v C:\Users\Admin\.m2:/root/.m2'
         }
     }
     stages{
